@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Ejercicio09.MainPage">
+    
+    <ContentPage.Resources>
+        <StyleSheet>
+            <![CDATA[
+                StackLayout > Button {
+                    background-color: #FA7A44;
+                    color: Black;
+                    border-radius: 8;
+                }
+            ]]>
+        </StyleSheet>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Margin="20,10,20,20">
+                <Button x:Name="Item1" Text="ExplicitDemo"/>
+                <Button x:Name="Item2" Text="ExplicitControlDemo" />
+                <Button x:Name="Item3" Text="ImplicitDemo" />
+                <Button x:Name="Item4" Text="ImplicitControlDemo" />
+                <Button x:Name="Item5" Text="GlobalDemo" />
+                <Button x:Name="Item6" Text="InheritanceDemo" />
+                <Button x:Name="Item7" Text="DynamicDemo" />
+                <Button x:Name="Item8" Text="ClassDemo" />
+                <Button x:Name="Item9" Text="EjemploCSS" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

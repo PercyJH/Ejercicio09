@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Ejercicio09.EjemploCSS">
+    <ContentPage.Resources>
+        <StyleSheet Source="/Assets/Styles.css"/>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand">
+            <Label Text="Tengo que terminar esto en menos de 5 min o me quitan la máquina :c"/>
+            <Label Text="Bueno, acabo de ejecutar esto pero no aparece el botón ue puse, ojalá nome quiten la máquina puesto me quedan 2 min antes de las 18:00 que es la hora fin"/>
+            <Button Text="Aumentar 5 min!!"/>
+
+            <Label x:Name="texto" Text="Ojalá el botón de arriba funcionase... :c"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
